@@ -28,12 +28,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #383b3f;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #383b3f;
   text-shadow: none;
 }
 
@@ -86,6 +86,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+a {
+  color: #383b3f;
+}
+
+.jumbotron {
+  background-image: url(../img/comida-brasileira.jpeg);
+  background-size: cover;
+}
+
+.jumbotron h3 {
+  text-transform: uppercase;
+}
+
+.jumbotron h3, .jumbotron p {
+  text-shadow: 2px 2px 8px #000;
+}
+
+.btn {
+  border-radius: 30px;
+}
+
+.btn-primary {
+  background-color: #df7b2b !important;
+}
+
+.btn-secondary {
+  color: #df7b2b;
+  background-color: #383b3f !important;
+}
+
+h2 {
+  color: #df7b2b;
+}
 
 /* ==========================================================================
    Helper classes
