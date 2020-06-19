@@ -16,12 +16,14 @@
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" async>
   <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" async>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+    async>
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet" async>
   <link rel="stylesheet" href="css/main.css" async>
 
   <meta name="theme-color" content="#383b3f">
+  <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
 </head>
 
 <body>
@@ -29,7 +31,8 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Cleydson Sobral" height="20" style="margin-bottom: 3px;"></a>
+      <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Cleydson Sobral" height="20"
+          style="margin-bottom: 3px;"></a>
 
       <!-- Collapse button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -65,7 +68,8 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://api.whatsapp.com/send?phone=558199040213&text=Ol%C3%A1%20Cleydson%20Sobral%2C%20quero%20agendar%20uma%20consulta%20com%20voc%C3%AA!" class="nav-link waves-effect waves-light">
+            <a href="https://api.whatsapp.com/send?phone=558199040213&text=Ol%C3%A1%20Cleydson%20Sobral%2C%20quero%20agendar%20uma%20consulta%20com%20voc%C3%AA!"
+              class="nav-link waves-effect waves-light">
               <i class="fab fa-whatsapp"></i> (81) 9904-0213
             </a>
           </li>
@@ -81,10 +85,11 @@
       <div class="row">
         <div class="col-sm-8">
           <h3 class="display-4">O básico funciona!</h3>
-          <p class="lead">Cleydson Sobral é nutricionista com expertise em emagrecimento e no 
-            tratamento da obesidade. Devido ao coronavírus, meus atendimentos 
+          <p class="lead">Cleydson Sobral é nutricionista com expertise em emagrecimento e no
+            tratamento da obesidade. Devido ao coronavírus, meus atendimentos
             estão sendo realizados online.</p>
-          <a class="btn btn-primary btn-lg pay-button-getnet" href="#" role="button"><i class="fas fa-video"></i> Agendar consulta</a>
+          <button id="pay-button" class="btn btn-primary btn-lg" href="#"><i class="fas fa-video"></i>
+            Agendar consulta</button>
           <a class="btn btn-secondary btn-lg" href="#" role="button">Especialidades</a>
         </div>
       </div>
@@ -92,8 +97,8 @@
   </div>
   <!-- Jumbotron -->
   <div class="container my-5">
- 
- 
+
+
     <!--Section: Content-->
     <section id="sobremim" class="dark-grey-text">
 
@@ -105,9 +110,15 @@
 
           <h2>Nutricionista Cleydson Sobral</h2>
 
-          <p class="text-muted">O cuidado em identificar pontos críticos na estrutura atual da organização apresenta tendências no sentido de aprovar a manutenção do sistema de formação de quadros que corresponde às necessidades. No entanto, não podemos esquecer que o julgamento imparcial das eventualidades exige a precisão e a definição dos paradigmas corporativos.</p>
+          <p class="text-muted">O cuidado em identificar pontos críticos na estrutura atual da organização apresenta
+            tendências no sentido de aprovar a manutenção do sistema de formação de quadros que corresponde às
+            necessidades. No entanto, não podemos esquecer que o julgamento imparcial das eventualidades exige a
+            precisão e a definição dos paradigmas corporativos.</p>
 
-          <p class="text-muted">Por conseguinte, a contínua expansão de nossa atividade não pode mais se dissociar das formas de ação. Desta maneira, a consolidação das estruturas cumpre um papel essencial na formulação de todos os recursos funcionais envolvidos. É claro que o desafiador cenário globalizado causa impacto indireto na reavaliação do orçamento setorial.</p>
+          <p class="text-muted">Por conseguinte, a contínua expansão de nossa atividade não pode mais se dissociar das
+            formas de ação. Desta maneira, a consolidação das estruturas cumpre um papel essencial na formulação de
+            todos os recursos funcionais envolvidos. É claro que o desafiador cenário globalizado causa impacto indireto
+            na reavaliação do orçamento setorial.</p>
 
           <!-- <a class="btn btn-purple btn-md ml-0" href="#" role="button">Start now<i class="fa fa-gem ml-2"></i></a> -->
 
@@ -153,25 +164,56 @@
   <!-- Bootstrap tooltips
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script> -->
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
-  <script id="getnet-loader-script" data-getnet-sellerid="8a32b055-93d3-4758-847c-91a555210218" data-getnet-token="Bearer f60ddd41-c13b-4594-aab8-3027236675eb" data-getnet-payment-methods-disabled="[]" data-getnet-amount="400.00" data-getnet-customerid="12345" data-getnet-orderid="12345" data-getnet-button-class="pay-button-getnet" data-getnet-customer-first-name="João" data-getnet-customer-last-name="da Silva" data-getnet-customer-document-type="CPF" data-getnet-customer-document-number="82916868070" data-getnet-customer-email="teste@teste.com" data-getnet-customer-address-street="Av. Nações Unidas" data-getnet-customer-address-street-number="1" data-getnet-customer-address-neighborhood="Brooklin" data-getnet-customer-address-city="São Paulo" data-getnet-customer-address-state="SP" data-getnet-customer-address-zipcode="04578907" data-getnet-customer-country="Brasil" data-getnet-shipping-address="[]" data-getnet-items="[{"name":"","description":"","value":0,"quantity":0,"sku":""}]"></script>
-  <script>
-    var settings = {
-      "url": "https://api-sandbox.getnet.com.br/auth/oauth/v2/token?scope=oob&grant_type=client_credentials",
-      "method": "POST",
-      "timeout": 0,
-      "headers": {
-        "Authorization": "Basic ZjA5YTg5MjAtMWZlYS00ZDNiLTk0ZWUtMGY3NWNhMGVhNjQ0OjBlZjIzMTM0LTVkMmYtNDM2Mi1iMWViLTVmYzJhNDgxNmY5MA==",
-        "Content-Type": "application/x-www-form-urlencoded"
-      },
-    };
 
-    $.ajax(settings).done(function (response) {
-      document.getElementById("getnet-loader-script").setAttribute('data-getnet-token', 'Bearer ' + response.access_token);
-      $.getScript( 'https://checkout-sandbox.getnet.com.br/loader.js', function() {});
+  <script>
+  var button = document.getElementById("pay-button");
+
+  // Abrir o modal ao clicar no botão
+  button.addEventListener('click', function() {
+
+    // inicia a instância do checkout
+    var checkout = new PagarMeCheckout.Checkout({
+      encryption_key: 'ek_test_OSxEIhfFAQqcqaewfXUr9p9bNpQffG',
+      success: function(data) {
+        console.log(data);
+      },
+      error: function(err) {
+          console.log(err);
+      },
+      close: function() {
+          console.log('The modal has been closed.');
+      }
     });
+
+    // Obs.: é necessário passar os valores boolean como string
+    checkout.open({
+      amount: 40000,
+      buttonText: 'Pagar',
+      buttonClass: 'botao-pagamento',
+      customerData: 'false',
+      createToken: 'true',
+      paymentMethods: 'credit_card',
+      customer: {
+        external_id: '#123456789',
+        name: 'Fulano',
+        type: 'individual',
+        country: 'br',
+        email: 'fulano@email.com',
+        documents: [
+          {
+            type: 'cpf',
+            number: '71404665560',
+          },
+        ],
+        phone_numbers: ['+5511999998888', '+5511888889999'],
+        birthday: '1985-01-01'
+      }
+    });
+  });
   </script>
   <!-- <script src="js/main.js"></script> -->
 
