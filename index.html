@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="basicExampleNav">
 
         <!-- Links -->
-        <ul class="navbar-nav mr-auto">
+        <!-- <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#sobremim">Sobre mim</a>
           </li>
@@ -58,7 +58,7 @@
             <a class="nav-link" href="#">Contato</a>
           </li>
 
-        </ul>
+        </ul> -->
         <!-- Links -->
 
         <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -110,18 +110,14 @@
         <div class="col-md-8 mb-4 mb-md-0">
 
           <h2>Nutricionista Cleydson Sobral</h2>
-
-          <p class="text-muted">O cuidado em identificar pontos críticos na estrutura atual da organização apresenta
-            tendências no sentido de aprovar a manutenção do sistema de formação de quadros que corresponde às
-            necessidades. No entanto, não podemos esquecer que o julgamento imparcial das eventualidades exige a
-            precisão e a definição dos paradigmas corporativos.</p>
-
-          <p class="text-muted">Por conseguinte, a contínua expansão de nossa atividade não pode mais se dissociar das
-            formas de ação. Desta maneira, a consolidação das estruturas cumpre um papel essencial na formulação de
-            todos os recursos funcionais envolvidos. É claro que o desafiador cenário globalizado causa impacto indireto
-            na reavaliação do orçamento setorial.</p>
-
-          <!-- <a class="btn btn-purple btn-md ml-0" href="#" role="button">Start now<i class="fa fa-gem ml-2"></i></a> -->
+          <h4>Formação acadêmica</h4>
+          <ul>
+            <li>Graduado em Nutrição</li>
+            <li>Graduado em Educação Física</li>
+            <li>Pós Graduado no Tratamento da Obesidade e Emagrecimento</li>
+            <li>Pós Graduado em Nutrição Esportiva</li>
+            <li>Pós Graduado em Treinamento de Força e Musculação</li>
+          </ul>
 
         </div>
         <!--Grid column-->
@@ -186,32 +182,32 @@
           console.log(err);
         },
         close: function () {
-          console.log('The modal has been closed.');
+          console.log('O modal foi fechado.');
         }
       });
 
       // Obs.: é necessário passar os valores boolean como string
       checkout.open({
-        amount: 40000,
+        amount: 40,
         buttonText: 'Pagar',
         buttonClass: 'botao-pagamento',
         customerData: 'false',
         createToken: 'true',
         paymentMethods: 'credit_card',
         customer: {
-          external_id: '#123456789',
-          name: 'Fulano',
+          external_id: '#1',
+          name: 'Thiago Prazeres Bezerra',
           type: 'individual',
           country: 'br',
-          email: 'fulano@email.com',
+          email: 'thiagoprazeres@gmail.com',
           documents: [
             {
               type: 'cpf',
-              number: '71404665560',
+              number: '06215350443',
             },
           ],
-          phone_numbers: ['+5511999998888', '+5511888889999'],
-          birthday: '1985-01-01'
+          phone_numbers: ['+5581997070825'],
+          birthday: ''
         }
       });
     });
