@@ -182,33 +182,15 @@
           console.log(err);
         },
         close: function () {
-          console.log('O modal foi fechado.');
+          console.log('The modal has been closed.');
         }
       });
 
       // Obs.: é necessário passar os valores boolean como string
       checkout.open({
-        amount: 40,
-        buttonText: 'Pagar',
-        buttonClass: 'botao-pagamento',
-        customerData: 'false',
-        createToken: 'true',
+        amount: '8000',
         paymentMethods: 'credit_card',
-        customer: {
-          external_id: '#1',
-          name: 'Thiago Prazeres Bezerra',
-          type: 'individual',
-          country: 'br',
-          email: 'thiagoprazeres@gmail.com',
-          documents: [
-            {
-              type: 'cpf',
-              number: '06215350443',
-            },
-          ],
-          phone_numbers: ['+5581997070825'],
-          birthday: ''
-        }
+        maxInstallments: 2
       });
     });
   </script>
