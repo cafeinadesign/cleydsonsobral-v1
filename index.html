@@ -174,9 +174,10 @@
 
       // inicia a instância do checkout
       var checkout = new PagarMeCheckout.Checkout({
-        encryption_key: 'ek_live_mOnDtgsLdZMOKkj1bwN3mIk7ycEQP5',
+        encryption_key: 'ek_test_OSxEIhfFAQqcqaewfXUr9p9bNpQffG',
         success: function (data) {
           console.log(data);
+          window.location.href = "https://omundo.typeform.com/to/Fdabmx";
         },
         error: function (err) {
           console.error(err);
@@ -189,8 +190,7 @@
       // Obs.: é necessário passar os valores boolean como string
       checkout.open({
         amount: '40000',
-        paymentMethods: 'credit_card',
-        maxInstallments: 2
+        maxInstallments: 3
       });
     });
   </script>
