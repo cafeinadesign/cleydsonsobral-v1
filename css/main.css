@@ -91,16 +91,18 @@ a {
   color: #383b3f;
 }
 
-.jumbotron {
+main {
   background-image: url(../img/comida-brasileira.webp);
   background-size: cover;
 }
 
-.jumbotron h3 {
-  text-transform: uppercase;
+.jumbotron {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(102deg, rgba(0, 0, 0, 0.83) 50%, rgba(0, 0, 0, 0) 82%);
 }
 
-.jumbotron h3, .jumbotron p {
+.jumbotron h3,
+.jumbotron p {
   text-shadow: 2px 2px 8px #000;
 }
 
@@ -213,10 +215,7 @@ h2 {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -294,4 +293,3 @@ h2 {
     page-break-after: avoid;
   }
 }
-
