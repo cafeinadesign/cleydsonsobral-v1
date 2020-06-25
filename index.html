@@ -179,7 +179,7 @@
           console.log(data);
         },
         error: function (err) {
-          console.log(err);
+          console.error(err);
         },
         close: function () {
           console.log('The modal has been closed.');
@@ -188,7 +188,7 @@
 
       // Obs.: é necessário passar os valores boolean como string
       checkout.open({
-        amount: '400',
+        amount: '40000',
         paymentMethods: 'credit_card',
         maxInstallments: 2
       });
